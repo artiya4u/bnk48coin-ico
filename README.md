@@ -1,4 +1,4 @@
-# BNK48 ICO Contract
+# BNK48 COIN ICO Contract
 
 Run
 ```
