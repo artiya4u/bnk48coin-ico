@@ -1,0 +1,23 @@
+{
+  "name": "bnk48coin-ico",
+  "version": "1.0.0",
+  "description": "Run ``` npm install -g ethereumjs-testrpc npm install -g truffle mkdir bnk48coin-ico && cd bnk48coin-ico truffle init npm install zeppelin-solidity testrpc -u 0 truffle migrate --reset ```",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artiya4u/bnk48coin-ico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artiya4u/bnk48coin-ico/issues"
+  },
+  "homepage": "https://github.com/artiya4u/bnk48coin-ico#readme",
+  "dependencies": {
+    "zeppelin-solidity": "1.10.0"
+  }
+}
