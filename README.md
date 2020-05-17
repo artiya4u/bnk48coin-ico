@@ -2,11 +2,12 @@
 
 Run
 ```
-npm install -g ethereumjs-testrpc
+npm install -g ganache-cli
 npm install -g truffle
 mkdir bnk48coin-ico && cd bnk48coin-ico
 truffle init
-npm install zeppelin-solidity
-testrpc -u 0
+npm init -Y
+npm install --save @openzeppelin/contracts@v2.5 web3
+ganache-cli -u 0
 truffle migrate --reset
 ```
